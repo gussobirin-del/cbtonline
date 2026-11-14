@@ -1,0 +1,6 @@
+{
+  "name": "SMK Medina Bandung — Sistem CBT & Monitoring Real-Time",
+  "description": "Platform ujian online Penilaian Tengah Semester (PTS) & Penilaian Akhir Semester (PAS) serta dashboard pemantauan aktivitas pengguna secara real-time untuk SMK Medina Bandung.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

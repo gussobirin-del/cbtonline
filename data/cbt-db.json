@@ -1,0 +1,1190 @@
+{
+  "exams": [
+    {
+      "id": "PAS-MWGJGQ7A",
+      "title": "Sistem Jaringan Dasar",
+      "category": "PAS",
+      "semester": "Ganjil",
+      "academicYear": "2026/2027",
+      "subject": "Topologi Jaringan Komputer",
+      "gradeLevel": "XII",
+      "majors": [
+        "TKJ"
+      ],
+      "durationMinutes": 60,
+      "token": "MEDINA-DTZU",
+      "status": "Aktif",
+      "maxViolations": 2,
+      "shuffleQuestions": false,
+      "showResultToStudent": true,
+      "scheduledAt": "2026-11-14T15:06",
+      "createdAt": "2026-11-14T15:06:36.838Z",
+      "questions": [
+        {
+          "id": "q-mwgjj16h-nd0",
+          "type": "pg",
+          "prompt": "Topologi secara sistem saling terhubung satu dengan lain tanpa terputus adalah jenis topologi>",
+          "options": [
+            "BUS",
+            "TREE",
+            "MESH",
+            "RING",
+            "HYBRID"
+          ],
+          "correctIndex": 3,
+          "points": 20
+        }
+      ]
+    },
+    {
+      "id": "PTS-TKJ-2026",
+      "title": "PTS Ganjil — Administrasi Infrastruktur Jaringan",
+      "category": "PTS",
+      "semester": "Ganjil",
+      "academicYear": "2026/2027",
+      "subject": "Administrasi Infrastruktur Jaringan",
+      "gradeLevel": "XII",
+      "majors": [
+        "TKJ"
+      ],
+      "durationMinutes": 60,
+      "token": "MEDINA-TKJ1",
+      "status": "Aktif",
+      "maxViolations": 3,
+      "shuffleQuestions": false,
+      "showResultToStudent": true,
+      "scheduledAt": "2026-11-14T08:00:00",
+      "createdAt": "2026-11-12T15:04:11.768Z",
+      "questions": [
+        {
+          "id": "q-tkj-1",
+          "type": "pg",
+          "prompt": "Pada konfigurasi router MikroTik, protokol yang digunakan untuk menerjemahkan alamat IP privat jaringan lokal menjadi alamat IP publik agar dapat mengakses internet adalah...",
+          "options": [
+            "DHCP Server",
+            "Source NAT (Masquerade)",
+            "ARP Proxy",
+            "Static Route",
+            "DNS Forwarder"
+          ],
+          "correctIndex": 1,
+          "points": 20
+        },
+        {
+          "id": "q-tkj-2",
+          "type": "pg",
+          "prompt": "Standar IEEE yang mengatur mekanisme VLAN Tagging (trunking) pada switch manageable adalah...",
+          "options": [
+            "IEEE 802.11ac",
+            "IEEE 802.3u",
+            "IEEE 802.1Q",
+            "IEEE 802.1X",
+            "IEEE 802.1D"
+          ],
+          "correctIndex": 2,
+          "points": 20
+        },
+        {
+          "id": "q-tkj-3",
+          "type": "pg",
+          "prompt": "Sebuah subnet memiliki prefix /27. Berapakah jumlah alamat IP host yang valid dan dapat digunakan oleh perangkat klien pada subnet tersebut?",
+          "options": [
+            "14 host",
+            "30 host",
+            "32 host",
+            "62 host",
+            "126 host"
+          ],
+          "correctIndex": 1,
+          "points": 20
+        },
+        {
+          "id": "q-tkj-4",
+          "type": "pg",
+          "prompt": "Perintah pada Cisco IOS untuk melihat tabel routing yang sedang aktif di router adalah...",
+          "options": [
+            "show interfaces brief",
+            "show vlan brief",
+            "show ip route",
+            "show running-config",
+            "traceroute ip"
+          ],
+          "correctIndex": 2,
+          "points": 20
+        },
+        {
+          "id": "q-tkj-5",
+          "type": "pg",
+          "prompt": "Manakah port default yang digunakan oleh layanan SSH (Secure Shell) untuk remote administration perangkat server Linux?",
+          "options": [
+            "Port 21",
+            "Port 22",
+            "Port 23",
+            "Port 80",
+            "Port 443"
+          ],
+          "correctIndex": 1,
+          "points": 20
+        }
+      ]
+    },
+    {
+      "id": "PTS-RPL-2026",
+      "title": "PTS Ganjil — Pemrograman Web & Basis Data",
+      "category": "PTS",
+      "semester": "Ganjil",
+      "academicYear": "2026/2027",
+      "subject": "Pemrograman Web & Basis Data",
+      "gradeLevel": "XII",
+      "majors": [
+        "RPL"
+      ],
+      "durationMinutes": 60,
+      "token": "MEDINA-RPL1",
+      "status": "Aktif",
+      "maxViolations": 3,
+      "shuffleQuestions": false,
+      "showResultToStudent": true,
+      "scheduledAt": "2026-11-14T08:00:00",
+      "createdAt": "2026-11-12T23:04:11.768Z",
+      "questions": [
+        {
+          "id": "q-rpl-1",
+          "type": "pg",
+          "prompt": "Dalam perancangan basis data relasional, constraint yang menjamin setiap nilai pada kolom kunci tamu cocok dengan nilai primary key di tabel induk disebut...",
+          "options": [
+            "Unique Constraint",
+            "Check Constraint",
+            "Referential Integrity (Foreign Key)",
+            "Auto Increment",
+            "Composite Index"
+          ],
+          "correctIndex": 2,
+          "points": 20
+        },
+        {
+          "id": "q-rpl-2",
+          "type": "pg",
+          "prompt": "Kode status HTTP yang tepat dikembalikan oleh REST API ketika permintaan POST berhasil membuat resource baru di server adalah...",
+          "options": [
+            "200 OK",
+            "201 Created",
+            "204 No Content",
+            "302 Found",
+            "400 Bad Request"
+          ],
+          "correctIndex": 1,
+          "points": 20
+        },
+        {
+          "id": "q-rpl-3",
+          "type": "pg",
+          "prompt": "Pada React, hook mana yang digunakan untuk menjalankan side-effect seperti berlangganan koneksi WebSocket saat komponen pertama kali dimuat?",
+          "options": [
+            "useState",
+            "useMemo",
+            "useEffect",
+            "useCallback",
+            "useReducer"
+          ],
+          "correctIndex": 2,
+          "points": 20
+        },
+        {
+          "id": "q-rpl-4",
+          "type": "pg",
+          "prompt": "Serangan keamanan web di mana penyerang menyisipkan skrip SQL berbahaya melalui input formulir untuk memanipulasi kueri database disebut...",
+          "options": [
+            "Cross-Site Scripting (XSS)",
+            "SQL Injection",
+            "CSRF",
+            "DDoS Amplification",
+            "Clickjacking"
+          ],
+          "correctIndex": 1,
+          "points": 20
+        },
+        {
+          "id": "q-rpl-5",
+          "type": "esai",
+          "prompt": "Jelaskan perbedaan utama antara protokol HTTP stateless dengan WebSocket dalam membangun sistem pemantauan aktivitas real-time!",
+          "options": [],
+          "correctIndex": 0,
+          "points": 20
+        }
+      ]
+    },
+    {
+      "id": "PAS-MTK-2026",
+      "title": "PAS Ganjil — Matematika Terapan Kejuruan",
+      "category": "PAS",
+      "semester": "Ganjil",
+      "academicYear": "2026/2027",
+      "subject": "Matematika Terapan",
+      "gradeLevel": "Semua Tingkat",
+      "majors": [
+        "TKJ",
+        "RPL",
+        "DKV",
+        "AKL"
+      ],
+      "durationMinutes": 90,
+      "token": "MEDINA-MTK26",
+      "status": "Aktif",
+      "maxViolations": 3,
+      "shuffleQuestions": false,
+      "showResultToStudent": true,
+      "scheduledAt": "2026-11-14T09:30:00",
+      "createdAt": "2026-11-13T03:04:11.768Z",
+      "questions": [
+        {
+          "id": "q-mtk-1",
+          "type": "pg",
+          "prompt": "Diketahui matriks A = [[3, 2], [1, 4]]. Berapakah nilai determinan dari matriks A tersebut?",
+          "options": [
+            "6",
+            "8",
+            "10",
+            "12",
+            "14"
+          ],
+          "correctIndex": 2,
+          "points": 25
+        },
+        {
+          "id": "q-mtk-2",
+          "type": "pg",
+          "prompt": "Barisan aritmetika memiliki suku pertama U1 = 5 dan beda b = 4. Berapakah nilai suku ke-10 (U10)?",
+          "options": [
+            "37",
+            "41",
+            "45",
+            "49",
+            "53"
+          ],
+          "correctIndex": 1,
+          "points": 25
+        },
+        {
+          "id": "q-mtk-3",
+          "type": "pg",
+          "prompt": "Dalam sebuah laboratorium komputer SMK Medina Bandung terdapat 6 komputer TKJ dan 4 komputer RPL. Jika dipilih 1 komputer secara acak, peluang terpilihnya komputer RPL adalah...",
+          "options": [
+            "0,20",
+            "0,35",
+            "0,40",
+            "0,50",
+            "0,60"
+          ],
+          "correctIndex": 2,
+          "points": 25
+        },
+        {
+          "id": "q-mtk-4",
+          "type": "pg",
+          "prompt": "Nilai rata-rata ujian praktik dari 5 siswa adalah 84. Jika 1 siswa susulan bergabung dan rata-ratanya menjadi 85, berapakah nilai siswa susulan tersebut?",
+          "options": [
+            "86",
+            "88",
+            "90",
+            "92",
+            "95"
+          ],
+          "correctIndex": 2,
+          "points": 25
+        }
+      ]
+    },
+    {
+      "id": "PAS-IND-2026",
+      "title": "PAS Ganjil — Bahasa Indonesia & Korespondensi Vokasi",
+      "category": "PAS",
+      "semester": "Ganjil",
+      "academicYear": "2026/2027",
+      "subject": "Bahasa Indonesia",
+      "gradeLevel": "XI",
+      "majors": [
+        "DKV",
+        "AKL",
+        "TKJ",
+        "RPL"
+      ],
+      "durationMinutes": 75,
+      "token": "MEDINA-IND1",
+      "status": "Terjadwal",
+      "maxViolations": 3,
+      "shuffleQuestions": false,
+      "showResultToStudent": false,
+      "scheduledAt": "2026-11-16T08:00:00",
+      "createdAt": "2026-11-13T15:04:11.768Z",
+      "questions": [
+        {
+          "id": "q-ind-1",
+          "type": "pg",
+          "prompt": "Bagian pada teks laporan hasil observasi praktik kerja industri yang memuat ringkasan atau manfaat pengamatan disebut...",
+          "options": [
+            "Pernyataan umum",
+            "Deskripsi bagian",
+            "Deskripsi manfaat / simpulan",
+            "Orientasi masalah",
+            "Koda argumentasi"
+          ],
+          "correctIndex": 2,
+          "points": 50
+        },
+        {
+          "id": "q-ind-2",
+          "type": "pg",
+          "prompt": "Penulisan kata baku yang sesuai dengan Pedoman Umum Ejaan Bahasa Indonesia (EYD V) adalah...",
+          "options": [
+            "Aktifitas, praktek, analisa",
+            "Aktivitas, praktik, analisis",
+            "Aktivitas, praktek, analisa",
+            "Aktifitas, praktik, analisis",
+            "Aktivita, praktikum, analis"
+          ],
+          "correctIndex": 1,
+          "points": 50
+        }
+      ]
+    },
+    {
+      "id": "PTS-PKK-2026",
+      "title": "PTS Ganjil — Produk Kreatif & Kewirausahaan",
+      "category": "PTS",
+      "semester": "Ganjil",
+      "academicYear": "2026/2027",
+      "subject": "Produk Kreatif & Kewirausahaan",
+      "gradeLevel": "XI",
+      "majors": [
+        "DKV",
+        "AKL"
+      ],
+      "durationMinutes": 60,
+      "token": "MEDINA-PKK9",
+      "status": "Selesai",
+      "maxViolations": 3,
+      "shuffleQuestions": false,
+      "showResultToStudent": true,
+      "scheduledAt": "2026-11-10T10:00:00",
+      "createdAt": "2026-11-09T15:04:11.768Z",
+      "questions": [
+        {
+          "id": "q-pkk-1",
+          "type": "pg",
+          "prompt": "Analisis peluang usaha yang memetakan Kekuatan, Kelemahan, Peluang, dan Ancaman dikenal dengan metode...",
+          "options": [
+            "SMART",
+            "SWOT",
+            "PDCA",
+            "AIDA",
+            "LEAN"
+          ],
+          "correctIndex": 1,
+          "points": 50
+        },
+        {
+          "id": "q-pkk-2",
+          "type": "pg",
+          "prompt": "Titik di mana total pendapatan sama persis dengan total biaya produksi sehingga usaha tidak mengalami laba maupun rugi disebut...",
+          "options": [
+            "Return on Investment",
+            "Gross Margin",
+            "Break Even Point (BEP)",
+            "Cash Flow Ratio",
+            "Net Profit"
+          ],
+          "correctIndex": 2,
+          "points": 50
+        }
+      ]
+    }
+  ],
+  "students": [
+    {
+      "id": "stu-01",
+      "nis": "20241001",
+      "name": "Rafi Pratama Putra",
+      "kelas": "XII TKJ 1",
+      "jurusan": "TKJ",
+      "gradeLevel": "XII",
+      "pin": "123456"
+    },
+    {
+      "id": "stu-02",
+      "nis": "20241002",
+      "name": "Nadia Azzahra Putri",
+      "kelas": "XII TKJ 1",
+      "jurusan": "TKJ",
+      "gradeLevel": "XII",
+      "pin": "123456"
+    },
+    {
+      "id": "stu-03",
+      "nis": "20241003",
+      "name": "Fajar Maulana Sidik",
+      "kelas": "XII RPL 1",
+      "jurusan": "RPL",
+      "gradeLevel": "XII",
+      "pin": "123456"
+    },
+    {
+      "id": "stu-04",
+      "nis": "20241004",
+      "name": "Siti Nurhaliza Rahma",
+      "kelas": "XII RPL 1",
+      "jurusan": "RPL",
+      "gradeLevel": "XII",
+      "pin": "123456"
+    },
+    {
+      "id": "stu-05",
+      "nis": "20252001",
+      "name": "Dimas Arya Nugraha",
+      "kelas": "XI DKV 1",
+      "jurusan": "DKV",
+      "gradeLevel": "XI",
+      "pin": "123456"
+    },
+    {
+      "id": "stu-06",
+      "nis": "20252002",
+      "name": "Alya Kusuma Wardani",
+      "kelas": "XI AKL 1",
+      "jurusan": "AKL",
+      "gradeLevel": "XI",
+      "pin": "123456"
+    },
+    {
+      "id": "stu-07",
+      "nis": "20241005",
+      "name": "Bagas Kurniawan",
+      "kelas": "XII TKJ 2",
+      "jurusan": "TKJ",
+      "gradeLevel": "XII",
+      "pin": "123456"
+    },
+    {
+      "id": "stu-08",
+      "nis": "20241006",
+      "name": "Intan Permata Sari",
+      "kelas": "XII RPL 1",
+      "jurusan": "RPL",
+      "gradeLevel": "XII",
+      "pin": "123456"
+    }
+  ],
+  "attempts": [
+    {
+      "id": "att-mwgjl7ep-ibu",
+      "examId": "PAS-MWGJGQ7A",
+      "examTitle": "Sistem Jaringan Dasar",
+      "examCategory": "PAS",
+      "studentId": "stu-01",
+      "studentNis": "20241001",
+      "studentName": "Rafi Pratama Putra",
+      "studentKelas": "XII TKJ 1",
+      "answers": {
+        "q-mwgjj16h-nd0": 0
+      },
+      "essayScores": {},
+      "flaggedQuestionIds": [],
+      "currentQuestionIndex": 0,
+      "answeredCount": 1,
+      "totalQuestions": 1,
+      "violations": 0,
+      "maxViolations": 2,
+      "status": "Selesai",
+      "score": 0,
+      "maxScore": 100,
+      "startedAt": "2026-11-14T15:10:05.761Z",
+      "submittedAt": "2026-11-14T15:10:11.237Z",
+      "lastActivityAt": "2026-11-14T15:10:11.237Z"
+    },
+    {
+      "id": "att-seed-1",
+      "examId": "PTS-PKK-2026",
+      "examTitle": "PTS Ganjil — Produk Kreatif & Kewirausahaan",
+      "examCategory": "PTS",
+      "studentId": "stu-05",
+      "studentNis": "20252001",
+      "studentName": "Dimas Arya Nugraha",
+      "studentKelas": "XI DKV 1",
+      "answers": {
+        "q-pkk-1": 1,
+        "q-pkk-2": 2
+      },
+      "essayScores": {},
+      "flaggedQuestionIds": [],
+      "currentQuestionIndex": 1,
+      "answeredCount": 2,
+      "totalQuestions": 2,
+      "violations": 0,
+      "maxViolations": 3,
+      "status": "Selesai",
+      "score": 100,
+      "maxScore": 100,
+      "startedAt": "2026-11-10T15:04:11.768Z",
+      "submittedAt": "2026-11-10T16:04:11.768Z",
+      "lastActivityAt": "2026-11-10T16:04:11.768Z"
+    },
+    {
+      "id": "att-seed-2",
+      "examId": "PTS-PKK-2026",
+      "examTitle": "PTS Ganjil — Produk Kreatif & Kewirausahaan",
+      "examCategory": "PTS",
+      "studentId": "stu-06",
+      "studentNis": "20252002",
+      "studentName": "Alya Kusuma Wardani",
+      "studentKelas": "XI AKL 1",
+      "answers": {
+        "q-pkk-1": 1,
+        "q-pkk-2": 0
+      },
+      "essayScores": {},
+      "flaggedQuestionIds": [],
+      "currentQuestionIndex": 1,
+      "answeredCount": 2,
+      "totalQuestions": 2,
+      "violations": 1,
+      "maxViolations": 3,
+      "status": "Selesai",
+      "score": 50,
+      "maxScore": 100,
+      "startedAt": "2026-11-10T15:04:11.768Z",
+      "submittedAt": "2026-11-10T16:04:11.768Z",
+      "lastActivityAt": "2026-11-10T16:04:11.768Z"
+    },
+    {
+      "id": "att-seed-3",
+      "examId": "PTS-TKJ-2026",
+      "examTitle": "PTS Ganjil — Administrasi Infrastruktur Jaringan",
+      "examCategory": "PTS",
+      "studentId": "stu-07",
+      "studentNis": "20241005",
+      "studentName": "Bagas Kurniawan",
+      "studentKelas": "XII TKJ 2",
+      "answers": {
+        "q-tkj-1": 1,
+        "q-tkj-2": 2,
+        "q-tkj-3": 1,
+        "q-tkj-4": 2,
+        "q-tkj-5": 1
+      },
+      "essayScores": {},
+      "flaggedQuestionIds": [],
+      "currentQuestionIndex": 4,
+      "answeredCount": 5,
+      "totalQuestions": 5,
+      "violations": 0,
+      "maxViolations": 3,
+      "status": "Selesai",
+      "score": 100,
+      "maxScore": 100,
+      "startedAt": "2026-11-14T12:04:11.768Z",
+      "submittedAt": "2026-11-14T13:04:11.768Z",
+      "lastActivityAt": "2026-11-14T13:04:11.768Z"
+    }
+  ],
+  "activities": [
+    {
+      "id": "act-1794671091345-d9u0l",
+      "timestamp": "2026-11-14T15:44:51.345Z",
+      "type": "admin",
+      "actorName": "Admin Sistem",
+      "actorRole": "admin",
+      "actorMeta": "Pengaturan Jurusan",
+      "message": "Menyimpan daftar jurusan: TKJ, RPL, DKV, AKL",
+      "examTitle": null
+    },
+    {
+      "id": "act-1794671084913-52ety",
+      "timestamp": "2026-11-14T15:44:44.913Z",
+      "type": "koneksi",
+      "actorName": "Drs. Hendarman",
+      "actorRole": "admin",
+      "actorMeta": "admin · Administrator Sistem CBT",
+      "message": "Terhubung sebagai ADMIN (Data Peserta)",
+      "examTitle": null
+    },
+    {
+      "id": "act-1794671084779-pk3ma",
+      "timestamp": "2026-11-14T15:44:44.779Z",
+      "type": "koneksi",
+      "actorName": "Rafi Pratama Putra",
+      "actorRole": "siswa",
+      "actorMeta": "20241001 · XII TKJ 1",
+      "message": "Terhubung sebagai SISWA (Lobi Ujian Siswa)",
+      "examTitle": null
+    },
+    {
+      "id": "act-1794671084560-ljkkk",
+      "timestamp": "2026-11-14T15:44:44.560Z",
+      "type": "koneksi",
+      "actorName": "Drs. Hendarman",
+      "actorRole": "admin",
+      "actorMeta": "admin · Administrator Sistem CBT",
+      "message": "Terhubung sebagai ADMIN (Monitoring Real-Time)",
+      "examTitle": null
+    },
+    {
+      "id": "act-1794670968954-k28sz",
+      "timestamp": "2026-11-14T15:42:48.954Z",
+      "type": "koneksi",
+      "actorName": "Rafi Pratama Putra",
+      "actorRole": "siswa",
+      "actorMeta": "20241001 · XII TKJ 1",
+      "message": "Terhubung sebagai SISWA (Lobi Ujian Siswa)",
+      "examTitle": null
+    },
+    {
+      "id": "act-1794670968932-0uf05",
+      "timestamp": "2026-11-14T15:42:48.932Z",
+      "type": "koneksi",
+      "actorName": "Agus Sobirin",
+      "actorRole": "admin",
+      "actorMeta": "admin · Administrator Sistem CBT",
+      "message": "Terhubung sebagai ADMIN (Data Peserta)",
+      "examTitle": null
+    },
+    {
+      "id": "act-1794670968507-u6ze5",
+      "timestamp": "2026-11-14T15:42:48.507Z",
+      "type": "koneksi",
+      "actorName": "Agus Sobirin",
+      "actorRole": "admin",
+      "actorMeta": "admin · Administrator Sistem CBT",
+      "message": "Terhubung sebagai ADMIN (Monitoring Real-Time)",
+      "examTitle": null
+    },
+    {
+      "id": "act-1794670531912-bk6lb",
+      "timestamp": "2026-11-14T15:35:31.912Z",
+      "type": "koneksi",
+      "actorName": "Drs. Hendarman",
+      "actorRole": "admin",
+      "actorMeta": "admin · Administrator Sistem CBT",
+      "message": "Login berhasil sebagai ADMIN",
+      "examTitle": null
+    },
+    {
+      "id": "act-1794670528245-tlj9z",
+      "timestamp": "2026-11-14T15:35:28.245Z",
+      "type": "koneksi",
+      "actorName": "Budi Santoso, S.Kom",
+      "actorRole": "guru",
+      "actorMeta": "guru.tkj · Guru Produktif TKJ",
+      "message": "Terhubung sebagai GURU (Monitoring Real-Time)",
+      "examTitle": null
+    },
+    {
+      "id": "act-1794670527951-cj6kr",
+      "timestamp": "2026-11-14T15:35:27.951Z",
+      "type": "koneksi",
+      "actorName": "Budi Santoso, S.Kom",
+      "actorRole": "guru",
+      "actorMeta": "guru.tkj · Guru Produktif TKJ",
+      "message": "Login berhasil sebagai GURU",
+      "examTitle": null
+    },
+    {
+      "id": "act-1794670526371-rn9ep",
+      "timestamp": "2026-11-14T15:35:26.371Z",
+      "type": "koneksi",
+      "actorName": "Drs. Hendarman",
+      "actorRole": "admin",
+      "actorMeta": "admin · Administrator Sistem CBT",
+      "message": "Terhubung sebagai ADMIN (Ujian PTS & PAS)",
+      "examTitle": null
+    },
+    {
+      "id": "act-1794670459960-4q993",
+      "timestamp": "2026-11-14T15:34:19.960Z",
+      "type": "koneksi",
+      "actorName": "Drs. Hendarman",
+      "actorRole": "admin",
+      "actorMeta": "admin · Administrator Sistem CBT",
+      "message": "Terhubung sebagai ADMIN (Ujian PTS & PAS)",
+      "examTitle": null
+    },
+    {
+      "id": "act-1794669568225-e13wz",
+      "timestamp": "2026-11-14T15:19:28.225Z",
+      "type": "koneksi",
+      "actorName": "Budi Santoso, S.Kom",
+      "actorRole": "guru",
+      "actorMeta": "guru.tkj · Guru Produktif TKJ",
+      "message": "Login berhasil sebagai GURU",
+      "examTitle": null
+    },
+    {
+      "id": "act-1794669565254-ndhr4",
+      "timestamp": "2026-11-14T15:19:25.254Z",
+      "type": "koneksi",
+      "actorName": "Tamu Portal Siswa",
+      "actorRole": "siswa",
+      "actorMeta": "TAMU · Belum Login",
+      "message": "Terhubung sebagai SISWA (Login Portal Siswa)",
+      "examTitle": null
+    },
+    {
+      "id": "act-1794669564936-qj5hk",
+      "timestamp": "2026-11-14T15:19:24.936Z",
+      "type": "koneksi",
+      "actorName": "Tamu Portal Siswa",
+      "actorRole": "siswa",
+      "actorMeta": "TAMU · Belum Login",
+      "message": "Terhubung sebagai SISWA (Login Portal Siswa)",
+      "examTitle": null
+    },
+    {
+      "id": "act-1794669564377-r5jw6",
+      "timestamp": "2026-11-14T15:19:24.377Z",
+      "type": "koneksi",
+      "actorName": "Rafi Pratama Putra",
+      "actorRole": "siswa",
+      "actorMeta": "20241001 · XII TKJ 1",
+      "message": "Terhubung sebagai SISWA (Lobi Ujian Siswa)",
+      "examTitle": null
+    },
+    {
+      "id": "act-1794669272601-v5c2q",
+      "timestamp": "2026-11-14T15:14:32.601Z",
+      "type": "koneksi",
+      "actorName": "Tamu Portal Siswa",
+      "actorRole": "siswa",
+      "actorMeta": "TAMU · Belum Login",
+      "message": "Terhubung ke sistem (Login Portal Siswa)",
+      "examTitle": null
+    },
+    {
+      "id": "act-1794669272370-m5pxr",
+      "timestamp": "2026-11-14T15:14:32.370Z",
+      "type": "koneksi",
+      "actorName": "Tamu Portal Siswa",
+      "actorRole": "siswa",
+      "actorMeta": "TAMU · Belum Login",
+      "message": "Terhubung ke sistem (Login Portal Siswa)",
+      "examTitle": null
+    },
+    {
+      "id": "act-1794669272046-diod0",
+      "timestamp": "2026-11-14T15:14:32.046Z",
+      "type": "koneksi",
+      "actorName": "Rafi Pratama Putra",
+      "actorRole": "siswa",
+      "actorMeta": "20241001 · XII TKJ 1",
+      "message": "Terhubung ke sistem (Lobi Ujian Siswa)",
+      "examTitle": null
+    },
+    {
+      "id": "act-1794669157664-rt7xn",
+      "timestamp": "2026-11-14T15:12:37.664Z",
+      "type": "koneksi",
+      "actorName": "Admin Sistem",
+      "actorRole": "admin",
+      "actorMeta": "ADMIN · Operator CBT",
+      "message": "Terhubung ke sistem (Monitoring Real-Time)",
+      "examTitle": null
+    },
+    {
+      "id": "act-1794669115285-atg1h",
+      "timestamp": "2026-11-14T15:11:55.285Z",
+      "type": "koneksi",
+      "actorName": "Tamu Portal Siswa",
+      "actorRole": "siswa",
+      "actorMeta": "TAMU · Belum Login",
+      "message": "Terhubung ke sistem (Login Portal Siswa)",
+      "examTitle": null
+    },
+    {
+      "id": "act-1794669062050-d3gyn",
+      "timestamp": "2026-11-14T15:11:02.051Z",
+      "type": "koneksi",
+      "actorName": "Tamu Portal Siswa",
+      "actorRole": "siswa",
+      "actorMeta": "TAMU · Belum Login",
+      "message": "Terhubung ke sistem (Login Portal Siswa)",
+      "examTitle": null
+    },
+    {
+      "id": "act-1794669059747-xgdwy",
+      "timestamp": "2026-11-14T15:10:59.747Z",
+      "type": "koneksi",
+      "actorName": "Tamu Portal Siswa",
+      "actorRole": "siswa",
+      "actorMeta": "TAMU · Belum Login",
+      "message": "Terhubung ke sistem (Login Portal Siswa)",
+      "examTitle": null
+    },
+    {
+      "id": "act-1794669054505-cln90",
+      "timestamp": "2026-11-14T15:10:54.505Z",
+      "type": "koneksi",
+      "actorName": "Admin Sistem",
+      "actorRole": "admin",
+      "actorMeta": "ADMIN · Operator CBT",
+      "message": "Terhubung ke sistem (Monitoring Real-Time)",
+      "examTitle": null
+    },
+    {
+      "id": "act-1794669039017-iok3q",
+      "timestamp": "2026-11-14T15:10:39.017Z",
+      "type": "koneksi",
+      "actorName": "Tamu Portal Siswa",
+      "actorRole": "siswa",
+      "actorMeta": "TAMU · Belum Login",
+      "message": "Terhubung ke sistem (Login Portal Siswa)",
+      "examTitle": null
+    },
+    {
+      "id": "act-1794669025462-yc6qg",
+      "timestamp": "2026-11-14T15:10:25.462Z",
+      "type": "koneksi",
+      "actorName": "Admin Sistem",
+      "actorRole": "admin",
+      "actorMeta": "ADMIN · Operator CBT",
+      "message": "Terhubung ke sistem (Monitoring Real-Time)",
+      "examTitle": null
+    },
+    {
+      "id": "act-1794669011238-cw8og",
+      "timestamp": "2026-11-14T15:10:11.238Z",
+      "type": "ujian",
+      "actorName": "Rafi Pratama Putra",
+      "actorRole": "siswa",
+      "actorMeta": "20241001 · XII TKJ 1",
+      "message": "Mengumpulkan ujian (Skor otomatis: 0/100)",
+      "examTitle": "Sistem Jaringan Dasar"
+    },
+    {
+      "id": "act-1794669008092-sdb2e",
+      "timestamp": "2026-11-14T15:10:08.092Z",
+      "type": "ujian",
+      "actorName": "Rafi Pratama Putra",
+      "actorRole": "siswa",
+      "actorMeta": "20241001 · XII TKJ 1",
+      "message": "Menyimpan jawaban soal #1 (Progres: 1/1)",
+      "examTitle": "Sistem Jaringan Dasar"
+    },
+    {
+      "id": "act-1794669005762-tgzwo",
+      "timestamp": "2026-11-14T15:10:05.762Z",
+      "type": "ujian",
+      "actorName": "Rafi Pratama Putra",
+      "actorRole": "siswa",
+      "actorMeta": "20241001 · XII TKJ 1",
+      "message": "Memulai sesi ujian dengan token valid",
+      "examTitle": "Sistem Jaringan Dasar"
+    },
+    {
+      "id": "act-1794668996874-o1tcw",
+      "timestamp": "2026-11-14T15:09:56.874Z",
+      "type": "koneksi",
+      "actorName": "Rafi Pratama Putra",
+      "actorRole": "siswa",
+      "actorMeta": "20241001 · XII TKJ 1",
+      "message": "Terhubung ke sistem (Lobi Ujian Siswa)",
+      "examTitle": null
+    },
+    {
+      "id": "act-1794668996741-re5b4",
+      "timestamp": "2026-11-14T15:09:56.741Z",
+      "type": "koneksi",
+      "actorName": "Rafi Pratama Putra",
+      "actorRole": "siswa",
+      "actorMeta": "20241001 · XII TKJ 1",
+      "message": "Login berhasil ke Portal Ujian Siswa SMK Medina Bandung",
+      "examTitle": null
+    },
+    {
+      "id": "act-1794668974184-xaz6h",
+      "timestamp": "2026-11-14T15:09:34.184Z",
+      "type": "koneksi",
+      "actorName": "Tamu Portal Siswa",
+      "actorRole": "siswa",
+      "actorMeta": "TAMU · Belum Login",
+      "message": "Terhubung ke sistem (Login Portal Siswa)",
+      "examTitle": null
+    },
+    {
+      "id": "act-1794668967838-fpct4",
+      "timestamp": "2026-11-14T15:09:27.838Z",
+      "type": "koneksi",
+      "actorName": "Admin Sistem",
+      "actorRole": "admin",
+      "actorMeta": "ADMIN · Operator CBT",
+      "message": "Terhubung ke sistem (Monitoring Real-Time)",
+      "examTitle": null
+    },
+    {
+      "id": "act-1794668962805-2k8m4",
+      "timestamp": "2026-11-14T15:09:22.805Z",
+      "type": "koneksi",
+      "actorName": "Tamu Portal Siswa",
+      "actorRole": "siswa",
+      "actorMeta": "TAMU · Belum Login",
+      "message": "Terhubung ke sistem (Login Portal Siswa)",
+      "examTitle": null
+    },
+    {
+      "id": "act-1794668936045-v7291",
+      "timestamp": "2026-11-14T15:08:56.046Z",
+      "type": "admin",
+      "actorName": "Admin Sistem",
+      "actorRole": "admin",
+      "actorMeta": "Manajemen Ujian",
+      "message": "Memperbarui pengaturan ujian (Aktif · Token: MEDINA-DTZU)",
+      "examTitle": "Sistem Jaringan Dasar"
+    },
+    {
+      "id": "act-1794668796839-aabut",
+      "timestamp": "2026-11-14T15:06:36.839Z",
+      "type": "admin",
+      "actorName": "Admin Sistem",
+      "actorRole": "admin",
+      "actorMeta": "Manajemen Ujian",
+      "message": "Membuat ujian PAS: Sistem Jaringan Dasar (Token: MEDINA-TF8C)",
+      "examTitle": "Sistem Jaringan Dasar"
+    },
+    {
+      "id": "act-1794668706277-i639x",
+      "timestamp": "2026-11-14T15:05:06.277Z",
+      "type": "koneksi",
+      "actorName": "Admin Sistem",
+      "actorRole": "admin",
+      "actorMeta": "ADMIN · Operator CBT",
+      "message": "Terhubung ke sistem (Monitoring Real-Time)",
+      "examTitle": null
+    },
+    {
+      "id": "act-1794668675304-ncok3",
+      "timestamp": "2026-11-14T15:04:35.304Z",
+      "type": "koneksi",
+      "actorName": "Rafi Pratama Putra",
+      "actorRole": "siswa",
+      "actorMeta": "20241001 · XII TKJ 1",
+      "message": "Terhubung ke sistem (Lobi Ujian Siswa)",
+      "examTitle": null
+    },
+    {
+      "id": "act-1794668675169-0loq5",
+      "timestamp": "2026-11-14T15:04:35.169Z",
+      "type": "koneksi",
+      "actorName": "Rafi Pratama Putra",
+      "actorRole": "siswa",
+      "actorMeta": "20241001 · XII TKJ 1",
+      "message": "Login berhasil ke Portal Ujian Siswa SMK Medina Bandung",
+      "examTitle": null
+    },
+    {
+      "id": "act-1794668659686-w1a14",
+      "timestamp": "2026-11-14T15:04:19.686Z",
+      "type": "koneksi",
+      "actorName": "Tamu Portal Siswa",
+      "actorRole": "siswa",
+      "actorMeta": "TAMU · Belum Login",
+      "message": "Terhubung ke sistem (Login Portal Siswa)",
+      "examTitle": null
+    },
+    {
+      "id": "act-1794668656192-yj168",
+      "timestamp": "2026-11-14T15:04:16.192Z",
+      "type": "koneksi",
+      "actorName": "Tamu Portal Siswa",
+      "actorRole": "siswa",
+      "actorMeta": "TAMU · Belum Login",
+      "message": "Terhubung ke sistem (Login Portal Siswa)",
+      "examTitle": null
+    },
+    {
+      "id": "act-seed-1",
+      "timestamp": "2026-11-14T13:04:11.768Z",
+      "type": "ujian",
+      "actorName": "Bagas Kurniawan",
+      "actorRole": "siswa",
+      "actorMeta": "20241005 · XII TKJ 2",
+      "message": "Menyelesaikan ujian dengan nilai 100/100",
+      "examTitle": "PTS Ganjil — Administrasi Infrastruktur Jaringan"
+    }
+  ],
+  "latestBroadcast": null,
+  "users": [
+    {
+      "id": "usr-admin-1",
+      "role": "admin",
+      "username": "admin",
+      "password": "admin123",
+      "name": "Drs. Hendarman",
+      "unit": "Administrator Sistem CBT",
+      "isActive": true,
+      "createdAt": "2026-11-14T15:19:22.430Z"
+    },
+    {
+      "id": "usr-guru-1",
+      "role": "guru",
+      "username": "guru.tkj",
+      "password": "123",
+      "name": "Budi Santoso, S.Kom",
+      "unit": "Guru Produktif TKJ",
+      "jurusan": "TKJ",
+      "isActive": true,
+      "createdAt": "2026-11-14T15:19:22.430Z"
+    },
+    {
+      "id": "usr-guru-2",
+      "role": "guru",
+      "username": "guru.rpl",
+      "password": "123",
+      "name": "Rina Wulandari, M.Kom",
+      "unit": "Guru Produktif RPL",
+      "jurusan": "RPL",
+      "isActive": true,
+      "createdAt": "2026-11-14T15:19:22.430Z"
+    },
+    {
+      "id": "usr-guru-3",
+      "role": "guru",
+      "username": "guru.mtk",
+      "password": "123",
+      "name": "Deden Kurniawan, S.Pd",
+      "unit": "Guru Matematika Terapan",
+      "isActive": true,
+      "createdAt": "2026-11-14T15:19:22.430Z"
+    },
+    {
+      "id": "usr-karyawan-1",
+      "role": "karyawan",
+      "username": "tu.medina",
+      "password": "123",
+      "name": "Siti Aminah",
+      "unit": "Staf Tata Usaha Akademik",
+      "isActive": true,
+      "createdAt": "2026-11-14T15:19:22.430Z"
+    },
+    {
+      "id": "usr-karyawan-2",
+      "role": "karyawan",
+      "username": "op.lab",
+      "password": "123",
+      "name": "Agus Setiawan",
+      "unit": "Teknisi Laboratorium Komputer",
+      "isActive": true,
+      "createdAt": "2026-11-14T15:19:22.430Z"
+    },
+    {
+      "id": "stu-01",
+      "role": "siswa",
+      "username": "20241001",
+      "password": "123456",
+      "name": "Rafi Pratama Putra",
+      "unit": "XII TKJ 1",
+      "jurusan": "TKJ",
+      "gradeLevel": "XII",
+      "isActive": true,
+      "createdAt": "2026-11-14T15:19:22.430Z"
+    },
+    {
+      "id": "stu-02",
+      "role": "siswa",
+      "username": "20241002",
+      "password": "123456",
+      "name": "Nadia Azzahra Putri",
+      "unit": "XII TKJ 1",
+      "jurusan": "TKJ",
+      "gradeLevel": "XII",
+      "isActive": true,
+      "createdAt": "2026-11-14T15:19:22.430Z"
+    },
+    {
+      "id": "stu-03",
+      "role": "siswa",
+      "username": "20241003",
+      "password": "123456",
+      "name": "Fajar Maulana Sidik",
+      "unit": "XII RPL 1",
+      "jurusan": "RPL",
+      "gradeLevel": "XII",
+      "isActive": true,
+      "createdAt": "2026-11-14T15:19:22.430Z"
+    },
+    {
+      "id": "stu-04",
+      "role": "siswa",
+      "username": "20241004",
+      "password": "123456",
+      "name": "Siti Nurhaliza Rahma",
+      "unit": "XII RPL 1",
+      "jurusan": "RPL",
+      "gradeLevel": "XII",
+      "isActive": true,
+      "createdAt": "2026-11-14T15:19:22.430Z"
+    },
+    {
+      "id": "stu-05",
+      "role": "siswa",
+      "username": "20252001",
+      "password": "123456",
+      "name": "Dimas Arya Nugraha",
+      "unit": "XI DKV 1",
+      "jurusan": "DKV",
+      "gradeLevel": "XI",
+      "isActive": true,
+      "createdAt": "2026-11-14T15:19:22.430Z"
+    },
+    {
+      "id": "stu-06",
+      "role": "siswa",
+      "username": "20252002",
+      "password": "123456",
+      "name": "Alya Kusuma Wardani",
+      "unit": "XI AKL 1",
+      "jurusan": "AKL",
+      "gradeLevel": "XI",
+      "isActive": true,
+      "createdAt": "2026-11-14T15:19:22.430Z"
+    },
+    {
+      "id": "stu-07",
+      "role": "siswa",
+      "username": "20241005",
+      "password": "123456",
+      "name": "Bagas Kurniawan",
+      "unit": "XII TKJ 2",
+      "jurusan": "TKJ",
+      "gradeLevel": "XII",
+      "isActive": true,
+      "createdAt": "2026-11-14T15:19:22.430Z"
+    },
+    {
+      "id": "stu-08",
+      "role": "siswa",
+      "username": "20241006",
+      "password": "123456",
+      "name": "Intan Permata Sari",
+      "unit": "XII RPL 1",
+      "jurusan": "RPL",
+      "gradeLevel": "XII",
+      "isActive": true,
+      "createdAt": "2026-11-14T15:19:22.430Z"
+    }
+  ],
+  "majors": [
+    {
+      "code": "TKJ",
+      "name": "Teknik Komputer & Jaringan"
+    },
+    {
+      "code": "RPL",
+      "name": "Rekayasa Perangkat Lunak"
+    },
+    {
+      "code": "DKV",
+      "name": "Desain Komunikasi Visual"
+    },
+    {
+      "code": "AKL",
+      "name": "Akuntansi & Keuangan Lembaga"
+    }
+  ]
+}
